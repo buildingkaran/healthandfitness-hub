@@ -26,8 +26,8 @@ $result = $conn->query($sql);
 <table>
     <tr>
         <th>Name</th>
-        <th>Email</th>
         <th>Message</th>
+        <th>Email</th>
     </tr>
     <?php
     if ($result && $result->num_rows > 0) {
