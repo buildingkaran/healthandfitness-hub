@@ -25,8 +25,8 @@ $result = $conn->query($sql);
 
 <table>
     <tr>
-        <th>Email</th>
         <th>Name</th>
+        <th>Email</th>
         <th>Message</th>
     </tr>
     <?php
